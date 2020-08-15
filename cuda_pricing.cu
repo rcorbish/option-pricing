@@ -160,7 +160,7 @@ int main(int argc, char *argv[]) {
     float mumnmx[] =    {0, 0.2f} ;     // drift
     float rmnmx[] =     {0, 0.2f} ;     // risk free rate
 
-    for( int i=0 ; i<50000 ; i++ ) {
+    for( int i=0 ; i<20000 ; i++ ) {
       
       float S0 = pickOne( d(gen), S0mnmx ) ; 
       float K = S0 - pickOne( d(gen), Kmnmx ) ;
